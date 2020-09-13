@@ -1,0 +1,25 @@
+What’s the difference between the append and extend methods?
+
+The append method adds a single element to the end of the list. The extend method can add multiple elements to a list from an iterable (such as another list).
+
+What’s the difference between the pop and remove methods?
+
+The pop method removes an element from a list by its index position (or the end of a list if an index is not provided). The remove method removes a single element from a list by its value.
+
+Given a list
+
+numbers = [1, 4, 5, 7, 9]
+
+how can you overwrite the values 4 and 5 with 6 and 8?
+
+Provide the code below.
+
+numbers[1:3] = [6, 8]
+
+What do the two arguments to the insert method represent?
+
+The index position to insert an element in and the value itself. The list will be mutated.
+
+What does it mean for an object to be mutable?
+
+A mutable object such as a list is capable of change. It can be updated or modified in place without creating a copy.
