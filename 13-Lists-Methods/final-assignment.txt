@@ -1,0 +1,19 @@
+Describe how the maxsplit parameter for the split method works.
+
+The maxsplit parameter puts an upper threshold on how many times a string can be split by a separator / delimiter. Once the limit is reached, the remaining substring is used as the last element in the returned list.
+
+What is list comprehension?
+
+List comprehension is a shorthand syntax for generating a new list from an existing iterable. It allows us to apply the same operation to each element from a starting list, each character in a string, etc.
+
+What is the difference between the split and the join methods?
+
+Both methods are invoked on a string object. The split method splits or cuts a string based on the occurrences of a separator or delimiter. It returns a list of all the sliced elements. The join method does the opposite; it converts a list of strings into a single concatenated string. The string that the join method is invoked on serves as the separator between every two subsequent strings.
+
+What error is raised if the argument passed to the index method doesn’t exist in the list?
+
+A ValueError is raised.
+
+What’s been your favorite method or list feature so far?
+
+I like them all! If I had to choose, list comprehensions are always fun to write.
