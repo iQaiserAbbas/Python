@@ -1,1 +1,2 @@
-print("Hello world")
+print("Hello Codeindark.com")
+print("Hello World")
